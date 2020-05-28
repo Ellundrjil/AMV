@@ -273,6 +273,15 @@ header ul li a:hover {
   padding-bottom: 3rem;
 }
 
+.find-text i {
+  font-size: 2rem;
+  padding-right: 1.5rem;
+}
+
+.button-contact:hover {
+  color: var(--red);
+}
+
 /* contact */
 
 .contacts {
