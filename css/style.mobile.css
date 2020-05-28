@@ -1,0 +1,156 @@
+.header {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 1rem;
+  padding: 0;
+  position: static;
+  min-height: 200px;
+  background: white;
+}
+
+header ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 2rem;
+}
+
+header ul li {
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px dashed var(--grey);
+}
+
+.content h1 {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+/* solutions */
+
+.offer-container {
+  display: block;
+  margin: 1rem;
+}
+
+.offers {
+  padding: 0;
+  margin: 0;
+}
+
+.offers h2 {
+  line-height: 4rem;
+  margin: auto;
+  text-align: center;
+}
+
+.logo-canon {
+  padding-left: 0;
+}
+
+.solutions {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.solution-img img {
+  margin: 1rem 0;
+  border-top: 1px solid var(--red);
+  border-left: none;
+  padding-top: 1rem;
+  padding-left: 0;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.solution-text a {
+  font-family: "Amatic SC", cursive;
+  font-size: 2rem;
+}
+
+/* contact */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  padding-bottom: 7rem;
+  background: var(--grey);
+}
+
+.contacts h2 {
+  font-size: 3rem;
+}
+
+.mail-contact,
+.tel-contact {
+  display: flex;
+  margin: 0 4rem;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.contact p,
+.contact a {
+  color: white;
+  padding: none;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.contact i {
+  font-size: 3rem;
+  padding-right: 0;
+  margin: 1rem 5rem;
+}
+
+/* find */
+
+.find-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1500px;
+  padding: 3rem 1rem;
+}
+
+.find-img iframe {
+  padding: 0 1rem;
+  max-width: 100%;
+}
+.find-text h2 {
+  text-align: center;
+}
+
+.find-text {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  padding: 0 1.5rem;
+  font-size: 1.2rem;
+  padding-bottom: 3rem;
+  max-width: 800px;
+}
+
+/* items */
+.offers-items h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+}
+
+.small {
+  max-height: 100px;
+  min-height: 50px;
+}
