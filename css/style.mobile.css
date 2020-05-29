@@ -28,6 +28,10 @@ header ul li {
 .content h1 {
   font-size: 3rem;
   line-height: 5rem;
+  max-width: 500px;
+}
+.content h1 img {
+  max-width: 200px;
 }
 
 /* solutions */
